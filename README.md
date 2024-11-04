@@ -19,8 +19,8 @@
 
 ✈️ **自用机场推荐** 🛩️
 
-[*银河云：**IPLC专线机场**，支持定制跨境电商 / Tiktok运营商用线路*](https://url.cmliussss.com/yinhe)
+[*一分机场：**直连机场**便宜大碗，最低2元100G，全解锁，顶级大厂亚马逊节点无视晚高峰*](https://url.cmliussss.com/yifen)
 
 [*YkkCloud：**中转机场**月付低至10.5元起，**MITM线路免费看奈飞**，更有住宅IP线路*](https://url.cmliussss.com/ykk)
 
-[*一分机场：**直连机场**便宜大碗，最低2元100G，全解锁，顶级大厂亚马逊节点无视晚高峰*](https://url.cmliussss.com/yifen)
+[*银河云：**IPLC专线机场**，支持定制跨境电商 / Tiktok运营商用线路*](https://url.cmliussss.com/yinhe)
