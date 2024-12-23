@@ -21,6 +21,6 @@
 
 ☁️[*红杏云优质：**中转机场，不限时1T套餐折后45元起！***](https://url.cmliussss.com/hx) *五折专属优惠码*: **CMLiussss**
 
-👑[*69云**中转机场**：6.9元-100G/月！**每日签到免费送流量**不限时套餐！脚本签到无限白嫖！*](https://url.cmliussss.com/69yun)
+👑[*69云**中转机场**：6.9元-100G/月！**每日签到免费送流量**不限时套餐！*](https://url.cmliussss.com/69yun) [**脚本签到无限白嫖教程**](https://www.youtube.com/watch?v=W_wfv238eQw&t=317s)
 
 ✅[*一分机场：**直连机场**便宜大碗，最低2元100G，全解锁，顶级大厂亚马逊节点无视晚高峰*](https://url.cmliussss.com/yifen)
