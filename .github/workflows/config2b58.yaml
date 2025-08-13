@@ -25,7 +25,7 @@ jobs:
       - name: Check MOONTV_CONFIG_URL variable
         run: |
           # 检查是否设置了MOONTV_CONFIG_URL变量
-          MOONTV_CONFIG_URL="${{ vars.MOONTV_MOONTV_CONFIG_URL }}"
+          MOONTV_CONFIG_URL="${{ vars.MOONTV_CONFIG_URL }}"
           if [ -z "$MOONTV_CONFIG_URL" ]; then
             echo "❌ 错误: 未设置 MOONTV_CONFIG_URL 变量"
             echo "请在仓库设置中添加 MOONTV_CONFIG_URL 变量："
@@ -40,7 +40,7 @@ jobs:
       - name: Download and process config
         run: |
           # 下载配置文件
-          MOONTV_CONFIG_URL="${{ vars.MOONTV_MOONTV_CONFIG_URL }}"
+          MOONTV_CONFIG_URL="${{ vars.MOONTV_CONFIG_URL }}"
           echo "正在下载配置文件: $MOONTV_CONFIG_URL"
           curl -s -o config.json "$MOONTV_CONFIG_URL"
           
