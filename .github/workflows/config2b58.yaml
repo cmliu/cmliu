@@ -11,8 +11,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -52,10 +50,19 @@ jobs:
           print('Config file processed and encoded successfully')
           "
 
-      - name: Commit and push changes
+      - name: Check for changes and commit
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add tvapi_config_yaml
-          git commit -m "Update tvapi_config_yaml" || echo "No changes to commit"
-          git push
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git add tvapi_config_yaml
+            
+            # 检查是否有变更
+            if git diff --cached --quiet; then
+            echo "没有文件变更，跳过提交"
+            else
+            echo "检测到文件变更，开始提交"
+            git commit -m "Downloaded file on $(date "+%Y/%m/%d %H:%M:%S")"
+            git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{github.repository}}.git
+            git push
+            echo "提交完成"
+            fi
