@@ -22,10 +22,27 @@ jobs:
           python -m pip install --upgrade pip
           pip install base58
 
+      - name: Check MOONTV_CONFIG_URL variable
+        run: |
+          # 检查是否设置了MOONTV_CONFIG_URL变量
+          MOONTV_CONFIG_URL="${{ vars.MOONTV_MOONTV_CONFIG_URL }}"
+          if [ -z "$MOONTV_CONFIG_URL" ]; then
+            echo "❌ 错误: 未设置 MOONTV_CONFIG_URL 变量"
+            echo "请在仓库设置中添加 MOONTV_CONFIG_URL 变量："
+            echo "1. 进入仓库 Settings > Secrets and variables > Actions"
+            echo "2. 在 Variables 标签页中添加新变量"
+            echo "3. Name: MOONTV_CONFIG_URL"
+            echo "4. Value: 配置文件的URL地址"
+            exit 1
+          fi
+          echo "✅ MOONTV_CONFIG_URL 变量已设置: $MOONTV_CONFIG_URL"
+
       - name: Download and process config
         run: |
           # 下载配置文件
-          curl -s -o config.json https://raw.githubusercontent.com/cmliussss2024/MoonTV/main/config.json
+          MOONTV_CONFIG_URL="${{ vars.MOONTV_MOONTV_CONFIG_URL }}"
+          echo "正在下载配置文件: $MOONTV_CONFIG_URL"
+          curl -s -o config.json "$MOONTV_CONFIG_URL"
           
           # 压缩并进行base58编码
           python3 -c "
