@@ -1,0 +1,61 @@
+name: Update TV API Config
+
+on:
+  schedule:
+    - cron: '0 0 * * 1'  # 每周一运行
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  update-config:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install base58
+
+      - name: Download and process config
+        run: |
+          # 下载配置文件
+          curl -s -o config.json https://raw.githubusercontent.com/cmliussss2024/MoonTV/main/config.json
+          
+          # 压缩并进行base58编码
+          python3 -c "
+          import json
+          import base58
+          import sys
+          
+          # 读取并解析JSON
+          with open('config.json', 'r', encoding='utf-8') as f:
+              data = json.load(f)
+          
+          # 压缩JSON（去除空格和换行）
+          compressed = json.dumps(data, separators=(',', ':'), ensure_ascii=False)
+          
+          # Base58编码
+          encoded = base58.b58encode(compressed.encode('utf-8')).decode('ascii')
+          
+          # 写入文件
+          with open('tvapi_config_yaml', 'w', encoding='utf-8') as f:
+              f.write(encoded)
+          
+          print('Config file processed and encoded successfully')
+          "
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add tvapi_config_yaml
+          git commit -m "Update tvapi_config_yaml" || echo "No changes to commit"
+          git push
