@@ -61,7 +61,7 @@ jobs:
           encoded = base58.b58encode(compressed.encode('utf-8')).decode('ascii')
           
           # 写入文件
-          with open('tvapi_config_yaml', 'w', encoding='utf-8') as f:
+          with open('tvapi_config_json', 'w', encoding='utf-8') as f:
               f.write(encoded)
           
           print('Config file processed and encoded successfully')
@@ -71,7 +71,7 @@ jobs:
         run: |
             git config --local user.email "action@github.com"
             git config --local user.name "GitHub Action"
-            git add tvapi_config_yaml
+            git add tvapi_config_json
             
             # 检查是否有变更
             if git diff --cached --quiet; then
