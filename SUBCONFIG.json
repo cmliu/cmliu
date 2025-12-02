@@ -1,6 +1,6 @@
 [
     {
-        "label": "ACL4SSR",
+        "label": "ACL4SSR规则",
         "options": [
             {
                 "label": "ACL4SSR_Online 默认版 分组比较全",
@@ -73,7 +73,7 @@
         ]
     },
     {
-        "label": "CM规则",
+        "label": "CM自用规则",
         "options": [
             {
                 "label": "CM_Online 默认版 识别港美地区",
