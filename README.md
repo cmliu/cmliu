@@ -1,4 +1,4 @@
-<img src="https://github-readme-stats.vercel.app/api?username=cmliu&show_icons=true&theme=Default&locale=cn&hide=prs&rank_icon=github" alt="logo" align="right" width="50%" />
+<img src="https://github-readme-stats.blog.cmliussss.com/api?username=cmliu&show_icons=true&locale=cn" alt="logo" align="right" width="50%" />
 
 🤖 **欢迎来到我的 GitHub 仓库！** 🚀
 
