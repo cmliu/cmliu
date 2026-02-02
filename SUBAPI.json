@@ -1,7 +1,7 @@
 [
     {
         "label": "🔄 CM负载均衡后端",
-        "value": "https://SUBAPI.cmliussss.net"
+        "value": "https://subapi.cmliussss.net"
     },
     {
         "label": "🛟 CM应急备用后端",
