@@ -15,6 +15,21 @@
         }
     },
     {
+        "项目名": "6Kmfi6HP/EDtunnel[3K项目配置]",
+        "提示消息": "注意！3K项目 SOCKS5/HTTP 出站暂不支持全局模式。",
+        "路径模板": {
+            "PROXYIP": "proxyip={{IP:PORT}}",
+            "SOCKS5": {
+                "全局": "socks5://{{IP:PORT}}",
+                "标准": "socks5://{{IP:PORT}}"
+            },
+            "HTTP": {
+                "全局": "http://{{IP:PORT}}",
+                "标准": "http://{{IP:PORT}}"
+            }
+        }
+    },
+    {
         "项目名": "eooce/Cloudflare-proxy[老王项目配置]",
         "提示消息": "注意！老王项目 SOCKS5/HTTP 出站不支持非全局模式。",
         "路径模板": {
