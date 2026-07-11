@@ -1,0 +1,41 @@
+name: 生成 Star 历史图
+
+on:
+  schedule:
+    - cron: "0 0 * * 0" # 每周日 00:00 自动运行
+  workflow_dispatch:
+
+jobs:
+  generate-star-chart:
+    name: 生成 Star 历史图
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+
+      - name: 配置 Python 环境
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: 安装依赖
+        run: pip install requests matplotlib
+
+      - name: 生成 Star 历史图
+        env:
+          # GH_TOKEN 为私密凭据，从 Secrets 读取
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          # GH_REPOS 为明文变量，在 仓库 Settings → Secrets and variables → Variables 中配置
+          # 多个仓库用英文逗号分隔，例如：cmliu/edgetunnel,owner/otherrepo
+          GH_REPOS: ${{ vars.GH_REPOS || 'cmliu/edgetunnel' }}
+        run: python scripts/starchart.py
+
+      - name: 提交并推送更改
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add star/*.svg
+          git commit -m "docs: 更新 Star 历史图" || echo "没有需要提交的变更"
+          git push
