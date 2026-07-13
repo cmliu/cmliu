@@ -19,7 +19,7 @@
 
 ✈️ **自用机场推荐** 🛩️
 
-☁️[*红杏云优质：**中转机场，不限时1T套餐折后45元起！***](https://url.cmliussss.com/hx) *五折专属优惠码*: **CMLiussss**
+☁️[*红杏云优质：**中转机场，不限时1T套餐折后45元起！***](https://hongxingyun.monster/?code=0EKwV4jN) *五折专属优惠码*: **CMLiussss**
 
 👑[*69云**中转机场**：6.9元-100G/月！**每日签到免费送流量**不限时套餐！*](https://url.cmliussss.com/69yun) [**脚本签到无限白嫖教程**](https://www.youtube.com/watch?v=W_wfv238eQw&t=317s)
 
