@@ -1,18 +1,6 @@
 {
   "projects": [
     {
-      "id": "cloudflarescan",
-      "name": "CloudFlareScan",
-      "author": "xiaolin-007",
-      "url": "https://github.com/xiaolin-007/CloudFlareScan",
-      "description": "Cloudflare 本地优选 IP 扫描测速软件，支持 IPv4/IPv6 自动扫描与地区测速",
-      "platforms": [
-        "windows",
-        "macos",
-        "android"
-      ]
-    },
-    {
       "id": "cfdata-web",
       "name": "CFData-WEB",
       "author": "PoemMisty",
@@ -20,8 +8,23 @@
       "description": "基于 Go 的 Cloudflare IP 测试与筛选工具，支持官方/非标优选、测速与导出，提供本地 Web 与 CLI 两种方式",
       "platforms": [
         "windows",
-        "macos",
-        "linux",
+        "macos-amd64",
+        "macos-arm64",
+        "linux-amd64",
+        "linux-arm64",
+        "android-arm64"
+      ]
+    },
+    {
+      "id": "cloudflarescan",
+      "name": "CloudFlareScan",
+      "author": "xiaolin-007",
+      "url": "https://github.com/xiaolin-007/CloudFlareScan",
+      "description": "Cloudflare 本地优选 IP 扫描测速软件，支持 IPv4/IPv6 自动扫描与地区测速",
+      "platforms": [
+        "windows",
+        "macos-amd64",
+        "macos-arm64",
         "android"
       ]
     }
