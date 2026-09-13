@@ -5,8 +5,8 @@
       "name": "CFData-WEB",
       "author": "PoemMisty",
       "url": "https://github.com/PoemMisty/CFData-WEB",
-      "stars": 1359,
-      "forks": 300,
+      "stars": 1373,
+      "forks": 303,
       "description": "基于 Go 的 Cloudflare IP 测试与筛选工具，支持官方/非标优选、测速与导出，提供本地 Web 与 CLI 两种方式",
       "platforms": [
         "win-amd64",
@@ -21,15 +21,15 @@
         "webui",
         "cli"
       ],
-      "stats_updated_at": "2026-09-12T17:59:33Z"
+      "stats_updated_at": "2026-09-13T18:26:02Z"
     },
     {
       "id": "cloudflarescan",
       "name": "CloudFlareScan",
       "author": "xiaolin-007",
       "url": "https://github.com/xiaolin-007/CloudFlareScan",
-      "stars": 829,
-      "forks": 261,
+      "stars": 831,
+      "forks": 263,
       "description": "Cloudflare 本地优选 IP 扫描测速软件，支持 IPv4/IPv6 自动扫描与地区测速",
       "platforms": [
         "win-x86",
@@ -40,7 +40,7 @@
       "ui": [
         "gui"
       ],
-      "stats_updated_at": "2026-09-12T17:59:33Z"
+      "stats_updated_at": "2026-09-13T18:26:02Z"
     },
     {
       "id": "cfnb",
@@ -48,7 +48,7 @@
       "author": "xinyitang3",
       "url": "https://github.com/xinyitang3/cfnb",
       "stars": 791,
-      "forks": 297,
+      "forks": 298,
       "description": "全自动 Cloudflare CDN 节点优选工具，支持 TCP/HTTP 延迟抖动检测与真实带宽测速，聚合多源节点并自动更新至 Cloudflare DNS，支持微信通知与定时运行",
       "platforms": [
         "win",
@@ -57,14 +57,14 @@
       "ui": [
         "cli"
       ],
-      "stats_updated_at": "2026-09-12T17:59:33Z"
+      "stats_updated_at": "2026-09-13T18:26:02Z"
     },
     {
       "id": "cfnatddnsgo",
       "name": "cfnatddnsgo",
       "author": "onlyoyrao999",
       "url": "https://github.com/onlyoyrao999/cfnatddnsgo",
-      "stars": 65,
+      "stars": 66,
       "forks": 7,
       "description": "基于 Android 的 Cloudflare 优选 IP 扫描与 DNS 自动同步工具，支持按节点区域（Colo/机场码）精准过滤并同步至 Cloudflare 域名解析，内置本地 IP 优选库与本地代理服务",
       "platforms": [
@@ -77,7 +77,7 @@
       "ui": [
         "gui"
       ],
-      "stats_updated_at": "2026-09-12T17:59:33Z"
+      "stats_updated_at": "2026-09-13T18:26:02Z"
     },
     {
       "id": "cloudflareproxyipdns",
