@@ -5,8 +5,8 @@
       "name": "CFData-WEB",
       "author": "PoemMisty",
       "url": "https://github.com/PoemMisty/CFData-WEB",
-      "stars": 1578,
-      "forks": 335,
+      "stars": 1590,
+      "forks": 336,
       "description": "基于 Go 的 Cloudflare IP 测试与筛选工具，支持官方/非标优选、测速与导出，提供本地 Web 与 CLI 两种方式",
       "platforms": [
         "win-amd64",
@@ -21,14 +21,14 @@
         "webui",
         "cli"
       ],
-      "stats_updated_at": "2026-09-18T18:45:01Z"
+      "stats_updated_at": "2026-09-19T18:18:25Z"
     },
     {
       "id": "cloudflarescan",
       "name": "CloudFlareScan",
       "author": "xiaolin-007",
       "url": "https://github.com/xiaolin-007/CloudFlareScan",
-      "stars": 840,
+      "stars": 842,
       "forks": 267,
       "description": "Cloudflare 本地优选 IP 扫描测速软件，支持 IPv4/IPv6 自动扫描与地区测速",
       "platforms": [
@@ -40,14 +40,14 @@
       "ui": [
         "gui"
       ],
-      "stats_updated_at": "2026-09-18T18:45:01Z"
+      "stats_updated_at": "2026-09-19T18:18:25Z"
     },
     {
       "id": "cfnb",
       "name": "cfnb",
       "author": "xinyitang3",
       "url": "https://github.com/xinyitang3/cfnb",
-      "stars": 792,
+      "stars": 796,
       "forks": 301,
       "description": "全自动 Cloudflare CDN 节点优选工具，支持 TCP/HTTP 延迟抖动检测与真实带宽测速，聚合多源节点并自动更新至 Cloudflare DNS，支持微信通知与定时运行",
       "platforms": [
@@ -57,7 +57,7 @@
       "ui": [
         "cli"
       ],
-      "stats_updated_at": "2026-09-18T18:45:01Z"
+      "stats_updated_at": "2026-09-19T18:18:25Z"
     },
     {
       "id": "cfnatddnsgo",
@@ -84,8 +84,8 @@
       "name": "CloudflareProxyipDNS",
       "author": "onlyoyrao999",
       "url": "https://github.com/onlyoyrao999/CloudflareProxyipDNS",
-      "stars": 47,
-      "forks": 10,
+      "stars": 48,
+      "forks": 11,
       "description": "专为 Android 打造的 Cloudflare/反代 IP 优选工具，支持高速扫描、数据中心过滤与 Worker API 检测，扫描后自动同步最优 IP 至 Cloudflare DNS 记录",
       "platforms": [
         "android-arm64",
@@ -97,7 +97,7 @@
       "ui": [
         "gui"
       ],
-      "stats_updated_at": "2026-09-18T18:45:01Z"
+      "stats_updated_at": "2026-09-19T18:18:25Z"
     },
     {
       "id": "guanfang-youxuan",
@@ -105,7 +105,7 @@
       "author": "liyanan2016-stack",
       "url": "https://github.com/liyanan2016-stack/guanfang-youxuan",
       "stars": 42,
-      "forks": 12,
+      "forks": 11,
       "description": "从 Cloudflare 官方公布的 IP 段随机生成候选并两阶段测速优选，支持回源状态码校验、地区筛选与指定 IP 段，输出当前网络下最快的 IP，提供 Android 原生界面与桌面 Web UI",
       "platforms": [
         "android-arm64",
@@ -117,7 +117,7 @@
         "gui",
         "webui"
       ],
-      "stats_updated_at": "2026-09-18T18:45:01Z"
+      "stats_updated_at": "2026-09-19T18:18:25Z"
     }
   ]
 }
