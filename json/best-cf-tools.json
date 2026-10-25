@@ -118,6 +118,22 @@
         "webui"
       ],
       "stats_updated_at": "2026-10-24T18:27:28Z"
+    },
+    {
+      "id": "cflark-harmony",
+      "name": "CFLark-Harmony",
+      "author": "Bailin-Love",
+      "url": "https://github.com/Bailin-Love/CFLark-Harmony",
+      "stars": 4,
+      "forks": 0,
+      "description": "鸿蒙 HarmonyOS NEXT 原生 Cloudflare 节点优选工具，TCP 初筛后按数据中心识别与下载测速加权排序，支持 IPv6、域名端到端校验与 edgetunnel 订阅自动上传",
+      "platforms": [
+        "harmonyos"
+      ],
+      "ui": [
+        "gui"
+      ],
+      "stats_updated_at": "2026-10-25T18:14:50Z"
     }
   ]
 }
