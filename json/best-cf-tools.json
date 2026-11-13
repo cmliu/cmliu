@@ -5,8 +5,8 @@
       "name": "CFData-WEB",
       "author": "PoemMisty",
       "url": "https://github.com/PoemMisty/CFData-WEB",
-      "stars": 2629,
-      "forks": 535,
+      "stars": 2640,
+      "forks": 540,
       "description": "基于 Go 的 Cloudflare IP 测试与筛选工具，支持官方/非标优选、测速与导出，提供本地 Web 与 CLI 两种方式",
       "platforms": [
         "win-amd64",
@@ -21,15 +21,15 @@
         "webui",
         "cli"
       ],
-      "stats_updated_at": "2026-11-12T21:58:27Z"
+      "stats_updated_at": "2026-11-13T21:44:01Z"
     },
     {
       "id": "cloudflarescan",
       "name": "CloudFlareScan",
       "author": "xiaolin-007",
       "url": "https://github.com/xiaolin-007/CloudFlareScan",
-      "stars": 1056,
-      "forks": 315,
+      "stars": 1060,
+      "forks": 316,
       "description": "Cloudflare 本地优选 IP 扫描测速软件，支持 IPv4/IPv6 自动扫描与地区测速",
       "platforms": [
         "win-x86",
@@ -40,14 +40,14 @@
       "ui": [
         "gui"
       ],
-      "stats_updated_at": "2026-11-12T21:58:27Z"
+      "stats_updated_at": "2026-11-13T21:44:01Z"
     },
     {
       "id": "cfnb",
       "name": "cfnb",
       "author": "xinyitang3",
       "url": "https://github.com/xinyitang3/cfnb",
-      "stars": 930,
+      "stars": 932,
       "forks": 341,
       "description": "全自动 Cloudflare CDN 节点优选工具，支持 TCP/HTTP 延迟抖动检测与真实带宽测速，聚合多源节点并自动更新至 Cloudflare DNS，支持微信通知与定时运行",
       "platforms": [
@@ -57,7 +57,7 @@
       "ui": [
         "cli"
       ],
-      "stats_updated_at": "2026-11-12T21:58:27Z"
+      "stats_updated_at": "2026-11-13T21:44:01Z"
     },
     {
       "id": "cfnatddnsgo",
@@ -124,7 +124,7 @@
       "name": "CFLark-Harmony",
       "author": "Bailin-Love",
       "url": "https://github.com/Bailin-Love/CFLark-Harmony",
-      "stars": 29,
+      "stars": 30,
       "forks": 0,
       "description": "鸿蒙 HarmonyOS NEXT 原生 Cloudflare 节点优选工具，TCP 初筛后按数据中心识别与下载测速加权排序，支持 IPv6、域名端到端校验与 edgetunnel 订阅自动上传",
       "platforms": [
@@ -133,7 +133,7 @@
       "ui": [
         "gui"
       ],
-      "stats_updated_at": "2026-11-09T23:54:42Z"
+      "stats_updated_at": "2026-11-13T21:44:01Z"
     }
   ]
 }
